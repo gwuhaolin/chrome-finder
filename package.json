@@ -19,5 +19,8 @@
     "test": "mocha test"
   },
   "author": "gwuhaolin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
 }
