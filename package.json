@@ -1,6 +1,6 @@
 {
   "name": "chrome-finder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "find a executable chrome in your system automatic",
   "keywords": [
     "chrome",
