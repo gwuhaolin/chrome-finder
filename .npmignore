@@ -1,0 +1,12 @@
+# files and directories to ignore when isntalled as
+# npm package via git URL
+
+.idea/
+node_modules/
+.appveyor.yml
+.editorconfig
+.git/
+.gitignore
+.travis.yml
+test/
+
