@@ -7,10 +7,6 @@
 # chrome-finder 
 find a executable chrome in your system automatic
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/3bvxELAxnq8r4wheFyRkED8U/gwuhaolin/chrome-finder'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/3bvxELAxnq8r4wheFyRkED8U/gwuhaolin/chrome-finder.svg' />
-</a>
-
 ## Use
 ```js
 const findChrome = require('chrome-finder');
