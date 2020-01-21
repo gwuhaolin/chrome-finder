@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/gwuhaolin/chrome-finder.svg?style=flat-square)](https://npmjs.org/package/chrome-finder)
 [![Npm Downloads](http://img.shields.io/npm/dm/chrome-finder.svg?style=flat-square)](https://www.npmjs.com/package/chrome-finder)
 
-# chrome-finder 
+# chrome-finder
 find a executable chrome in your system automatic
 
 ## Use
@@ -12,8 +12,9 @@ find a executable chrome in your system automatic
 const findChrome = require('chrome-finder');
 const chromePath = findChrome();
 ```
-- if no executable chrome find, `Error('platform not support')` will be throw
-- if platform is not one if `['win32','darwin','linux']`, `Error('no chrome installations found')` will be throw
+
+ - if the `chrome` executable *is not* found, an error `Error('no chrome installations found')` will be thrown
+ - if the `chrome` executable *is*     found, but the platform *is not* one of `['win32', 'darwin', 'linux']`, an error `Error('platform not support')` will be thrown.
 
 ## Use Case
 chrome-finder has been used in:
